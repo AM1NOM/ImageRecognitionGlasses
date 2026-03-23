@@ -6,16 +6,13 @@ We are aiming to build a device that can help blind people be aware of their sur
 - 
 
 ## Screenshots
-![main](images/AdobeExpressPhotos_9c54e331133045cbb3de4c9fbc849317_CopyEdited.png)
-![mainn](images/AdobeExpressPhotos_fb6bb35c12214c6bb2978b7bf7650981_CopyEdited.png)
-
 
 - **Schematic:**
-    ![Schematicc](images/AdobeExpressPhotos_193deb7dd69646989ff731884ae77283_CopyEdited.png)
+    ![Schematicc](images/Schemtic.png)
 
 
 - **PCB:**
-	![PCB](images/AdobeExpressPhotos_3ff78aa63e2c438c9d79232ffc736364_CopyEdited.png)
+	![PCB](images/PCB.png)
 
 - **CAD:**
     ![TOP](images/AdobeExpressPhotos_28f2e4561a7d46eaba59ac2a4ec328c7_CopyEdited.png)
