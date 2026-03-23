@@ -1,3 +1,28 @@
+# IMAGE RECOGNITION GLASSES
+
+We are aiming to build a device that can help blind people be aware of their surroundings, using a camera, image recognition, and text-to-speech. There are several stages involved in building the device, including designing the hardware and developing the software.
+
+## Features
+- 
+
+## Screenshots
+![main](images/AdobeExpressPhotos_9c54e331133045cbb3de4c9fbc849317_CopyEdited.png)
+![mainn](images/AdobeExpressPhotos_fb6bb35c12214c6bb2978b7bf7650981_CopyEdited.png)
+
+
+- **Schematic:**
+    ![Schematicc](images/AdobeExpressPhotos_193deb7dd69646989ff731884ae77283_CopyEdited.png)
+
+
+- **PCB:**
+	![PCB](images/AdobeExpressPhotos_3ff78aa63e2c438c9d79232ffc736364_CopyEdited.png)
+
+- **CAD:**
+    ![TOP](images/AdobeExpressPhotos_28f2e4561a7d46eaba59ac2a4ec328c7_CopyEdited.png)
+	![BOTTOM](images/AdobeExpressPhotos_bcf551e7a5ed4b88a551d70bc72cacd0_CopyEdited.png)
+
+## Bill of Materials (BOM)
+
 | Part Name                             | Reason / Description                                       | Quantity | Unit Price (£) | Seller (Direct Product Link)                                                        | Notes                             |
 | ------------------------------------- | ---------------------------------------------------------- | -------- | -------------- | ----------------------------------------------------------------------------------- | --------------------------------- |
 | Raspberry Pi 5 (8GB)                  | Main processing computer running software and camera tasks | 1        | 120.00     | [The Pi Hut](https://thepihut.com/products/raspberry-pi-5?variant=42531604955331)     | Official UK Raspberry Pi reseller |
@@ -13,3 +38,30 @@
 | USB Webcam  | Small camera for video input     |        1 |    18.10 |[Amazon](https://www.amazon.co.uk/innomaker-Computer-Raspberry-Supports-Windows/dp/B0CNCSFQC1/ref=asc_df_B0CNCSFQC1?mcid=6a5f1bcbfa9733429b3220cdf497f310&tag=googshopuk-21&linkCode=df0&hvadid=696386561233&hvpos=&hvnetw=g&hvrand=3702107595903094867&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9199185&hvtargid=pla-2309316011891&psc=1&hvocijid=3702107595903094867-B0CNCSFQC1-&hvexpln=0&gad_source=1) | a compact 1080p model                                 |
 | USB Headset | Audio output for listening/calls |        1 |    5.99 | [Amazon](https://www.amazon.co.uk/Headphones-Microphone-Wired-Cancelling-Business-black/dp/B0FLDVP4GD/ref=asc_df_B0FLDVP4GD?mcid=395dca7f5b063f17ad818a3d6d89ce47&tag=googshopuk-21&linkCode=df0&hvadid=758428357322&hvpos=&hvnetw=g&hvrand=5466172132595335940&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9199185&hvtargid=pla-2448953799310&psc=1&hvocijid=5466172132595335940-B0FLDVP4GD-&hvexpln=0&gad_source=1)    | headphones |
 |YSJJZRL USB to PH2.0 Cable | Cable to connect USB ports to PH2.0 peripheral board |        1 |         £4.98 | [Amazon](https://www.amazon.co.uk/dp/B0CSPHTRZY) | USB 2.0 data + power, 1.5 m, PH2.0 female |
+
+
+For the complete, raw BOM file see [BOM.csv](BOM.csv).
+
+
+## Firmware
+Firmware and microcontroller code are in `Firmware/main.py`.
+
+## Other files
+- PCB and schematic files: [PCB/hackpad.kicad_pcb](PCB/hackpad.kicad_pcb)
+- PCB project files and library: `PCB/` folder
+- 3D models for case: `CAD/` folder
+
+## License
+This project is open-source.
+
+
+
+
+
+
+
+
+
+
+
+
