@@ -8,7 +8,7 @@ We are aiming to build a device that can help blind people be aware of their sur
 ## Screenshots
 
 - **Schematic:**
-    ![Schematicc](images/Schemtic.png)
+    ![Schematicc](images/Schematic.png)
 
 
 - **PCB:**
