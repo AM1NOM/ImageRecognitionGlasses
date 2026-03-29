@@ -15,8 +15,7 @@ We are aiming to build a device that can help blind people be aware of their sur
 	![PCB](images/PCB.png)
 
 - **CAD:**
-    ![TOP](images/AdobeExpressPhotos_28f2e4561a7d46eaba59ac2a4ec328c7_CopyEdited.png)
-	![BOTTOM](images/AdobeExpressPhotos_bcf551e7a5ed4b88a551d70bc72cacd0_CopyEdited.png)
+    ![TOP](image_2026-03-30_002837044.png)
 
 ## Bill of Materials (BOM)
 
