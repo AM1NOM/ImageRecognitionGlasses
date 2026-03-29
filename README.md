@@ -38,7 +38,7 @@ For the complete, raw BOM file see [BOM.csv](BOM.csv).
 
 
 ## Firmware
-Firmware and microcontroller code are in `Firmware/main.py`.
+Firmware and microcontroller code are in `CODE/Firmware.py`.
 
 ## Other files
 - PCB and schematic files: [PCB/hackpad.kicad_pcb](PCB/hackpad.kicad_pcb)
