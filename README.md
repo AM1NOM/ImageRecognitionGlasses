@@ -3,10 +3,6 @@
 We are aiming to build a device that can help blind people be aware of their surroundings, using a camera, image recognition, and text-to-speech. There are several stages involved in building the device, including designing the hardware and developing the software.
 You can find our Word document about this project [here](https://mercialt-my.sharepoint.com/:w:/g/personal/bahramia_mercia_school/IQDaSRObkFn9QrRjMxeWHlX-AcOBT_vHGkkaOwhr4ABxG9w?e=yJghnD).
 
-
-## Features
-- 
-
 ## Screenshots
 
 - **Schematic:**
