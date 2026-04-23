@@ -25,18 +25,23 @@ class EncoderCNN(nn.Module):
 
 
 class DecoderRNN(nn.Module):
-    """
-    Decoder: Simple LSTM that generates captions from image features.
-    """
     def __init__(self, embed_size, hidden_size, vocab_size, num_layers=1):
         super().__init__()
         self.embed = nn.Embedding(vocab_size, embed_size)
         self.lstm = nn.LSTM(embed_size, hidden_size, num_layers, batch_first=True)
         self.fc = nn.Linear(hidden_size, vocab_size)
 
+        # project image features into initial hidden state
+        self.init_h = nn.Linear(embed_size, hidden_size)
+        self.init_c = nn.Linear(embed_size, hidden_size)
+
     def forward(self, features, captions):
         embeddings = self.embed(captions)
-        inputs = torch.cat((features.unsqueeze(1), embeddings), dim=1)
-        hiddens, _ = self.lstm(inputs)
-        outputs = self.fc(hiddens)
+
+        # initialize LSTM state from image features
+        h0 = self.init_h(features).unsqueeze(0)
+        c0 = self.init_c(features).unsqueeze(0)
+
+        outputs, _ = self.lstm(embeddings, (h0, c0))
+        outputs = self.fc(outputs)
         return outputs
